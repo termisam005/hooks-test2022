@@ -16,11 +16,6 @@ export default class Example4 extends React.Component {
         );
     }
 
-    click = () => {
-        this.setState({ count: this.state.count + 1 });
-    }
-
-
     componentDidMount() {
         console.log("componentDidMout", this.state.count);
     }
@@ -28,5 +23,10 @@ export default class Example4 extends React.Component {
     componentDidUpdate() {
         console.log("componentDidUpdate", this.state.count);
     }
+
+    click = () => {
+        this.setState({ count: this.state.count + 1 });
+    }
+
 
 } 
