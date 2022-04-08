@@ -7,6 +7,7 @@ import Example4 from './components/Example4';
 import Example5 from './components/Example5';
 import Example6 from './components/Example6';
 import Example7 from './components/Example7';
+import Example8 from './components/Example8';
 import useWindowWidth from './hooks/useWindowWidth';
 
 function App() {
@@ -22,9 +23,12 @@ function App() {
         <Example2 />
         <Example3 />
         <Example4 />
-        <Example5 /> */}
+        <Example5 />
         <Example7 />
-        {width}
+        <Example7 /> */}
+        <Example8 />
+
+        {/* {width} */}
 
       </header>
     </div>
